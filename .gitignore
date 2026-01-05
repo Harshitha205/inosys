@@ -54,6 +54,7 @@ htmlcov/
 
 # Model files (for GitHub, use Git LFS for large files)
 # Note: Milestone4_Deployment/trained_models/*.pkl are committed for Streamlit deployment
+# Note: Preprocessing artifacts are committed for app to function
 *.pickle
 
 # Data files
