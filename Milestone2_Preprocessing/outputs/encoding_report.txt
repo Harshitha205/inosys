@@ -1,0 +1,6 @@
+shipment_mode: {'Air': 0, 'Road': 1, 'Sea': 2}
+weather_condition: {'Clear': 0, 'Rainy': 1, 'Storm': 2}
+region: {'East': 0, 'North': 1, 'South': 2, 'West': 3}
+holiday_period: {'No': 0, 'Yes': 1}
+carrier_name: {'BlueDart': 0, 'DHL': 1, 'FedEx': 2, 'LocalTruckers': 3, 'UPS': 4}
+delayed_reason_code: {'Customs': 0, 'Operational': 1, 'Traffic': 2, 'Weather': 3}

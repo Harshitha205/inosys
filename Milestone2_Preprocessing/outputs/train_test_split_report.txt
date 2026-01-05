@@ -1,0 +1,37 @@
+Training: 800, Testing: 200, Features: 34
+
+Features:
+  - supplier_rating
+  - supplier_lead_time
+  - shipping_distance_km
+  - order_quantity
+  - unit_price
+  - total_order_value
+  - previous_on_time_rate
+  - shipment_mode_encoded
+  - weather_condition_encoded
+  - region_encoded
+  - holiday_period_encoded
+  - carrier_name_encoded
+  - delayed_reason_code_encoded
+  - delivery_delay_days
+  - promised_lead_time
+  - is_large_order
+  - is_high_value
+  - supplier_reliability_score
+  - lead_time_risk
+  - total_items_value
+  - order_month
+  - order_day_of_week
+  - supplier_rating_scaled
+  - supplier_lead_time_scaled
+  - shipping_distance_km_scaled
+  - order_quantity_scaled
+  - unit_price_scaled
+  - total_order_value_scaled
+  - previous_on_time_rate_scaled
+  - delivery_delay_days_scaled
+  - promised_lead_time_scaled
+  - lead_time_risk_scaled
+  - supplier_reliability_score_scaled
+  - total_items_value_scaled

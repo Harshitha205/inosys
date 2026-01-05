@@ -1,0 +1,3 @@
+Execution: 2025-12-08 20:33:47.469451
+Original: (1000, 19), Processed: (1000, 48)
+Train: 800, Test: 200, Features: 34

@@ -1,0 +1,32 @@
+Shape: (1000, 19)
+
+Column Types:
+  order_id: object
+  supplier_id: object
+  supplier_rating: float64
+  supplier_lead_time: int64
+  order_date: object
+  promised_delivery_date: object
+  actual_delivery_date: object
+  shipment_mode: object
+  shipping_distance_km: int64
+  order_quantity: int64
+  unit_price: float64
+  total_order_value: float64
+  weather_condition: object
+  region: object
+  holiday_period: object
+  previous_on_time_rate: float64
+  carrier_name: object
+  delayed_reason_code: object
+  on_time_delivery: int64
+
+       supplier_rating  supplier_lead_time  shipping_distance_km  order_quantity   unit_price  total_order_value  previous_on_time_rate  on_time_delivery
+count      1000.000000         1000.000000           1000.000000     1000.000000  1000.000000        1000.000000            1000.000000        1000.00000
+mean          2.983740            5.971000            989.934000       10.895000   246.656220        2670.167120               0.798610           0.50000
+std           1.150221            2.247935           1123.224771        3.118285   142.732797        1777.247095               0.113503           0.50025
+min           1.000000            1.000000             10.000000        3.000000     5.120000          47.700000               0.600000           0.00000
+25%           2.020000            4.000000            308.750000        9.000000   121.172500        1226.167500               0.700000           0.00000
+50%           2.980000            6.000000            567.000000       11.000000   248.725000        2430.535000               0.800000           0.50000
+75%           3.930000            7.000000           1163.500000       13.000000   367.027500        3813.367500               0.900000           1.00000
+max           5.000000           14.000000           6178.000000       22.000000   499.650000        9366.240000               0.990000           1.00000

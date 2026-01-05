@@ -1,0 +1,133 @@
+# Ignore Python files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Ignore virtual environments
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Model files (for GitHub, use Git LFS for large files)
+*.pkl
+*.pickle
+trained_models/
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+processed_data/
+
+# Logs
+logs/
+*.log
+
+# Streamlit cache
+.streamlit/
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS files
+.DS_Store
+.directory
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# IDE specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.vs/
+
+# Build files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache
+.cache/
+*.cache
+
+# Credentials and secrets
+secrets.json
+.credentials
+oauth_tokens.json
+
+# Large files
+*.pkl.bak
+*.model.bak
+model_artifacts/
+
+# Output files (tracked separately)
+outputs/*.csv
+outputs/*.pkl
+outputs/*.json
+
+# Ignore specific model files unless added with Git LFS
+trained_models/*.pkl
+trained_models/*.model

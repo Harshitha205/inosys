@@ -1,0 +1,13 @@
+Total Features Created: 11
+
+  - delivery_delay_days
+  - promised_lead_time
+  - is_large_order
+  - is_high_value
+  - order_value_category
+  - supplier_reliability_score
+  - distance_category
+  - lead_time_risk
+  - total_items_value
+  - order_month
+  - order_day_of_week
