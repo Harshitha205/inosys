@@ -53,9 +53,8 @@ htmlcov/
 .env.*.local
 
 # Model files (for GitHub, use Git LFS for large files)
-*.pkl
+# Note: Milestone4_Deployment/trained_models/*.pkl are committed for Streamlit deployment
 *.pickle
-trained_models/
 
 # Data files
 *.csv
@@ -129,5 +128,4 @@ outputs/*.pkl
 outputs/*.json
 
 # Ignore specific model files unless added with Git LFS
-trained_models/*.pkl
-trained_models/*.model
+# Note: Milestone4_Deployment trained models are NOT ignored
